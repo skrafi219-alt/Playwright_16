@@ -17,6 +17,6 @@ test.only("storageState Test Case", async ({browser})=>{
     const context=await browser.newContext({storageState:'state.json'});
     const page=await context.newPage();
     await page.goto("https://rahulshettyacademy.com/client");
-    await page.pause();
+    
 
 });
